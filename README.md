@@ -29,7 +29,8 @@
 
 ```
 index.html, ch1~ch6 *.html   해설 페이지 (외부 라이브러리 없음, 글꼴만 외부)
-code/                        재현 코드 두 개, 연습용 가짜 데이터 코드, 변수 짝 표, requirements.txt (데이터 파일은 넣지 않음)
+data/                        분석용 데이터 data_set_total_02.csv (2,728행 × 72열, 공공 개방데이터 · 비상업적 이용)
+code/                        재현 코드 두 개, 연습용 가짜 데이터 코드, 변수 짝 표, requirements.txt
 img/                         표지 그림 자리 (cover_00~06.webp를 넣으면 대체 표지 대신 보임)
 kg/{페이지}/                 지식 색인 원본 kg.json · refs.json · meta.json
 docs/                        표지 지시문(Genspark용) · 이미지 명세서 · 검토 보고서(수포자 7원칙 + 페르소나 감사)
@@ -48,7 +49,15 @@ KG_new_ids.json              시리즈 등록부에 더할 새 개념 ID
 
 ## 데이터 이용
 
-산재보험패널 원 자료와 분석용 파일은 이용 약관을 지키기 위해 넣지 않았습니다. 누리집에서 이용 신청 후 받아 `code/README.md`대로 재현하세요.
+`data/data_set_total_02.csv`는 근로복지공단 [산재보험패널조사](https://www.pswci.or.kr) 2차 코호트 5차년도 자료(pswci_05_wide)를 발표자가 분석용으로 가공한 파일입니다. 산재보험패널은 **공공 개방데이터로 비상업적 이용이 가능**하며, 이 파일도 비상업적 목적(학습·연구·교육)으로만 쓰고 출처를 밝혀 주세요.
+
+> 출처: 근로복지공단 근로복지연구원, 산재보험패널조사 2차 코호트 5차년도 (가공: 안상선)
+
+```bash
+pip install -r code/requirements.txt
+python code/01_reproduce.py data/data_set_total_02.csv
+python code/02_imbalance.py data/data_set_total_02.csv
+```
 
 ## 저작권
 

@@ -6,7 +6,7 @@
 
 실행:  python 01_reproduce.py data/data_set_total_02.csv
 데이터: 근로복지공단 산재보험패널조사(https://www.pswci.or.kr) 2차 코호트 5차년도 자료를
-        분석용으로 가공한 파일. 원 자료 이용 약관 때문에 저장소에는 넣지 않았다.
+        분석용으로 가공한 파일(저장소 data/ 폴더). 공공 개방데이터 — 비상업적 이용, 출처 표시.
 """
 import sys
 import warnings
