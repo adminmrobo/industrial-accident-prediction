@@ -1,0 +1,448 @@
+{
+ "version": "1.0",
+ "page": "ch3_models",
+ "nodes": [
+  {
+   "id": "lab:concept/knn",
+   "type": "Method",
+   "label": {
+    "ko": "K-이웃 분류 (KNN)",
+    "en": "K-nearest neighbors"
+   },
+   "page": "ch3_models",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "닮은 이웃 K명의 다수결"
+   }
+  },
+  {
+   "id": "lab:concept/standardization",
+   "type": "Method",
+   "label": {
+    "ko": "표준화",
+    "en": "Standardization"
+   },
+   "page": "ch3_models",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "평균 0, 표준편차 1로 바꾸기"
+   }
+  },
+  {
+   "id": "lab:concept/logistic-regression",
+   "type": "Method",
+   "label": {
+    "ko": "로지스틱 회귀",
+    "en": "Logistic regression"
+   },
+   "page": "ch3_models",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "점수를 시그모이드로 확률로 바꿔 분류"
+   }
+  },
+  {
+   "id": "lab:concept/sigmoid",
+   "type": "Concept",
+   "label": {
+    "ko": "시그모이드 함수",
+    "en": "Sigmoid function"
+   },
+   "page": "ch3_models",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "p = 1/(1+e^-z)"
+   }
+  },
+  {
+   "id": "lab:concept/decision-tree",
+   "type": "Method",
+   "label": {
+    "ko": "의사결정나무",
+    "en": "Decision tree"
+   },
+   "page": "ch3_models",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "예/아니오 질문을 이어 나누기"
+   }
+  },
+  {
+   "id": "lab:concept/overfitting",
+   "type": "Limitation",
+   "label": {
+    "ko": "과적합",
+    "en": "Overfitting"
+   },
+   "page": "ch3_models",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "학습 데이터를 외워 처음 보는 데이터에 약함"
+   }
+  },
+  {
+   "id": "lab:concept/recall",
+   "type": "Metric",
+   "label": {
+    "ko": "재현율",
+    "en": "Recall"
+   },
+   "page": "ch3_models",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "실제 이용자 중 찾아낸 비율"
+   }
+  },
+  {
+   "id": "lab:claim/knn-scaling",
+   "type": "Claim",
+   "label": {
+    "ko": "표준화만 더해도 KNN의 재현율이 17.68%에서 22.56%로 오른다",
+    "en": "Scaling raises KNN recall 17.68% to 22.56%"
+   },
+   "page": "ch3_models",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/logit-threshold",
+   "type": "Claim",
+   "label": {
+    "ko": "표준화 로지스틱의 테스트 546명 중 확률 0.5를 넘은 사람은 47명뿐이다",
+    "en": "Only 47 of 546 exceed p=0.5"
+   },
+   "page": "ch3_models",
+   "anchor": "#p32b",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/tree-overfit",
+   "type": "Claim",
+   "label": {
+    "ko": "발표 나무는 학습 정확도 100%, 테스트 62.6% (깊이 24, 잎 386)",
+    "en": "Tree: train 100%, test 62.6%"
+   },
+   "page": "ch3_models",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/recall-three",
+   "type": "Claim",
+   "label": {
+    "ko": "Y1 재현율은 KNN 17.68%, 로지스틱 3.66%, 나무 35.98%다",
+    "en": "Y1 recall: KNN 17.68, logit 3.66, tree 35.98"
+   },
+   "page": "ch3_models",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "ahn2024pswci",
+     "loc": "19쪽"
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/ch3_models-p31",
+   "type": "Simulation",
+   "label": {
+    "ko": "이웃 K명에게 묻기",
+    "en": "KNN neighbors simulation"
+   },
+   "page": "ch3_models",
+   "anchor": "#p31",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:sim/ch3_models-p33",
+   "type": "Simulation",
+   "label": {
+    "ko": "가상 근로자를 나무에 태우기",
+    "en": "Tree walk simulation"
+   },
+   "page": "ch3_models",
+   "anchor": "#p33",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:quiz/ch3_models-q33",
+   "type": "QuizItem",
+   "label": {
+    "ko": "확인 퀴즈 3-3",
+    "en": "Check quiz q33"
+   },
+   "page": "ch3_models",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:question/split-not-cause",
+   "type": "Question",
+   "label": {
+    "ko": "나무가 고른 질문(흡연 등)을 원인으로 읽어도 될까",
+    "en": "Are tree splits causes?"
+   },
+   "page": "ch3_models",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:work/ahn2024pswci",
+   "type": "Work",
+   "label": {
+    "ko": "안상선 (2024) 산재보험패널 학술대회 포스터",
+    "en": "Ahn (2024) PSWCI conference poster"
+   },
+   "page": "ch3_models",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/standardization",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/knn",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/sigmoid",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/logistic-regression",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/decision-tree",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/overfitting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/knn-scaling",
+   "p": "lab:supports",
+   "o": "lab:concept/standardization",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/logit-threshold",
+   "p": "lab:supports",
+   "o": "lab:concept/logistic-regression",
+   "anchor": "#p32b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/tree-overfit",
+   "p": "lab:supports",
+   "o": "lab:concept/overfitting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/recall-three",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/recall",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/recall-three",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ahn2024pswci",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/knn",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/decision-tree",
+   "anchor": "#sum",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch3_models-p31",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/knn",
+   "anchor": "#p31",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch3_models-p33",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/decision-tree",
+   "anchor": "#p33",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/ch3_models-q33",
+   "p": "lab:assesses",
+   "o": "lab:concept/overfitting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/decision-tree",
+   "p": "lab:raises",
+   "o": "lab:question/split-not-cause",
+   "anchor": "#s3",
+   "confidence": "high"
+  }
+ ]
+}

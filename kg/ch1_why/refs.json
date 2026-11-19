@@ -1,0 +1,82 @@
+[
+ {
+  "id": "ahn2024pswci",
+  "type": "speech",
+  "title": "산업재해 패널 데이터를 활용한 머신러닝 모델 — 모델 구성 및 성능 평가 방법 제안",
+  "author": [
+   {
+    "family": "안",
+    "given": "상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     5,
+     17
+    ]
+   ]
+  },
+  "event": "제10회 산재보험패널 학술대회 (근로복지공단 근로복지연구원)",
+  "event-place": "서울 대한상공회의소",
+  "publisher": "(주)M-Robo",
+  "genre": "포스터 발표 자료 (29쪽)",
+  "lab": {
+   "work": "lab:work/ahn2024pswci",
+   "role": "primary",
+   "supports": [
+    "lab:claim/split-2182-546"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "저자가 준 발표 PDF·행사 포스터에서 옮김",
+   "checkedSource": "author"
+  }
+ },
+ {
+  "id": "kcomwel2022pswci",
+  "type": "dataset",
+  "title": "산재보험패널조사 2차 코호트 5차년도 데이터 (pswci_05_wide)",
+  "author": [
+   {
+    "literal": "근로복지공단 근로복지연구원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "근로복지공단",
+  "URL": "https://www.pswci.or.kr",
+  "genre": "국가승인통계 패널 데이터",
+  "lab": {
+   "work": "lab:work/kcomwel2022pswci",
+   "role": "data",
+   "supports": [
+    "lab:claim/period-rule"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "발표 자료 9쪽의 데이터 이름과 산재보험패널조사 누리집",
+   "checkedSource": "author"
+  }
+ }
+]

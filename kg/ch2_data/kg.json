@@ -1,0 +1,432 @@
+{
+ "version": "1.0",
+ "page": "ch2_data",
+ "nodes": [
+  {
+   "id": "lab:dataset/pswci-cohort2-wave5",
+   "type": "Dataset",
+   "label": {
+    "ko": "산재보험패널 2차 코호트 5차년도",
+    "en": "PSWCI cohort 2 wave 5"
+   },
+   "page": "ch2_data",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "2,728명 × 72열 분석용 파일"
+   },
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:concept/panel-data",
+   "type": "Concept",
+   "label": {
+    "ko": "패널 데이터",
+    "en": "Panel data"
+   },
+   "page": "ch2_data",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "같은 사람을 해마다 다시 조사한 자료"
+   }
+  },
+  {
+   "id": "lab:concept/categorical-variable",
+   "type": "Concept",
+   "label": {
+    "ko": "범주형 변수",
+    "en": "Categorical variable"
+   },
+   "page": "ch2_data",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "번호가 이름표인 변수"
+   }
+  },
+  {
+   "id": "lab:concept/missing-value-zero",
+   "type": "Method",
+   "label": {
+    "ko": "빈칸을 0으로 채우기",
+    "en": "Zero imputation"
+   },
+   "page": "ch2_data",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "재현 코드의 결측값 처리"
+   }
+  },
+  {
+   "id": "lab:concept/target-variable",
+   "type": "Concept",
+   "label": {
+    "ko": "타깃 변수 세 개",
+    "en": "Three target variables"
+   },
+   "page": "ch2_data",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "y_service · y_job · y_soc"
+   }
+  },
+  {
+   "id": "lab:concept/imbalanced-data",
+   "type": "Limitation",
+   "label": {
+    "ko": "불균형 데이터",
+    "en": "Imbalanced data"
+   },
+   "page": "ch2_data",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "이용자가 16~28%뿐"
+   }
+  },
+  {
+   "id": "lab:concept/correlation",
+   "type": "Metric",
+   "label": {
+    "ko": "상관계수",
+    "en": "Correlation coefficient"
+   },
+   "page": "ch2_data",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "함께 움직이는 정도, 원인 아님"
+   }
+  },
+  {
+   "id": "lab:concept/group-rate",
+   "type": "Method",
+   "label": {
+    "ko": "무리별 이용률",
+    "en": "Group usage rate"
+   },
+   "page": "ch2_data",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "범주별로 이용 비율을 직접 세기"
+   }
+  },
+  {
+   "id": "lab:claim/period-top-corr",
+   "type": "Claim",
+   "label": {
+    "ko": "세 타깃 모두 요양기간이 양(+)의 상관 1위다",
+    "en": "Period is the top positive correlate for all targets"
+   },
+   "page": "ch2_data",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "ahn2024pswci",
+     "loc": "12~14쪽"
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/disability-sign",
+   "type": "Claim",
+   "label": {
+    "ko": "장해 코드의 음(−) 상관은 번호 방향 때문이며 장해가 있는 쪽 이용률이 33.0%로 없는 쪽 6.7%보다 높다",
+    "en": "Negative correlation of disability code reflects coding direction"
+   },
+   "page": "ch2_data",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/yservice-union",
+   "type": "Claim",
+   "label": {
+    "ko": "Y1 이용자 764명 = 직업재활만 275 + 둘 다 160 + 사회재활만 329",
+    "en": "Y1 = Y2 or Y3"
+   },
+   "page": "ch2_data",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:question/rate-mismatch",
+   "type": "Question",
+   "label": {
+    "ko": "발표 27쪽 이용률(14.4%·23.4%)과 파일 이용률(15.9%·17.9%)이 다른 이유는",
+    "en": "Why do poster rates differ from file rates?"
+   },
+   "page": "ch2_data",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:sim/ch2_data-p24",
+   "type": "Simulation",
+   "label": {
+    "ko": "무리별 이용률 실험",
+    "en": "Group rate simulation"
+   },
+   "page": "ch2_data",
+   "anchor": "#p24",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:quiz/ch2_data-q24",
+   "type": "QuizItem",
+   "label": {
+    "ko": "확인 퀴즈 2-4",
+    "en": "Check quiz q24"
+   },
+   "page": "ch2_data",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:work/ahn2024pswci",
+   "type": "Work",
+   "label": {
+    "ko": "안상선 (2024) 산재보험패널 학술대회 포스터",
+    "en": "Ahn (2024) PSWCI conference poster"
+   },
+   "page": "ch2_data",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:dataset/pswci-cohort2-wave5",
+   "p": "lab:broader",
+   "o": "lab:concept/panel-data",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/categorical-variable",
+   "p": "lab:partOf",
+   "o": "lab:dataset/pswci-cohort2-wave5",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/missing-value-zero",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/categorical-variable",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/imbalanced-data",
+   "p": "lab:partOf",
+   "o": "lab:concept/target-variable",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/period-top-corr",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/correlation",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/period-top-corr",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ahn2024pswci",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/correlation",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/categorical-variable",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/group-rate",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/correlation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/disability-sign",
+   "p": "lab:supports",
+   "o": "lab:concept/group-rate",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/yservice-union",
+   "p": "lab:supports",
+   "o": "lab:concept/target-variable",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/target-variable",
+   "p": "lab:raises",
+   "o": "lab:question/rate-mismatch",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch2_data-p24",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/group-rate",
+   "anchor": "#p24",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/ch2_data-q24",
+   "p": "lab:assesses",
+   "o": "lab:claim/disability-sign",
+   "anchor": "#s4",
+   "confidence": "high"
+  }
+ ]
+}

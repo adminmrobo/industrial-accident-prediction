@@ -1,0 +1,328 @@
+{
+ "version": "1.0",
+ "page": "ch6_practice",
+ "nodes": [
+  {
+   "id": "lab:concept/reproducibility",
+   "type": "Concept",
+   "label": {
+    "ko": "재현성",
+    "en": "Reproducibility"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "같은 데이터·조건이면 같은 숫자"
+   }
+  },
+  {
+   "id": "lab:concept/data-leakage",
+   "type": "Limitation",
+   "label": {
+    "ko": "처방 전 나누기 누락 (데이터 누수)",
+    "en": "Leakage from resampling before split"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "테스트에 만든 점이 섞여 성적이 부풀려짐"
+   }
+  },
+  {
+   "id": "lab:concept/priority-ranking",
+   "type": "Method",
+   "label": {
+    "ko": "예측 확률로 우선순위 매기기",
+    "en": "Ranking by predicted probability"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "판정기 대신 순서 제안기"
+   }
+  },
+  {
+   "id": "lab:concept/human-in-the-loop",
+   "type": "Method",
+   "label": {
+    "ko": "사람이 최종 결정",
+    "en": "Human decision"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "모델은 제안, 사람이 결정"
+   }
+  },
+  {
+   "id": "lab:concept/one-hot",
+   "type": "Method",
+   "label": {
+    "ko": "원-핫 인코딩",
+    "en": "One-hot encoding"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "범주형 코드를 범주별 0·1 변수로"
+   }
+  },
+  {
+   "id": "lab:task/next-research",
+   "type": "Task",
+   "label": {
+    "ko": "다음 연구 로드맵",
+    "en": "Next research roadmap"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "데이터 → 모델 → 비용 기준선"
+   }
+  },
+  {
+   "id": "lab:claim/knn-exact",
+   "type": "Claim",
+   "label": {
+    "ko": "같은 조건이면 발표의 KNN 결과가 소수 둘째 자리까지 재현된다",
+    "en": "KNN results reproduce exactly"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/split-variance",
+   "type": "Claim",
+   "label": {
+    "ko": "random_state를 0으로 바꾸면 Y1 KNN 재현율이 17.68%에서 13.46%로 바뀐다",
+    "en": "Changing split seed moves KNN recall"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/miss-30",
+   "type": "Claim",
+   "label": {
+    "ko": "가장 나은 모델도 재활 서비스 이용자 164명 중 49명을 미이용으로 판정한다",
+    "en": "Best model still misses 49 of 164"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:question/use-vs-need",
+   "type": "Question",
+   "label": {
+    "ko": "\"이용했다\"와 \"필요했다\"는 같은가",
+    "en": "Is service use the same as need?"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:quiz/ch6_practice-q63",
+   "type": "QuizItem",
+   "label": {
+    "ko": "확인 퀴즈 6-3",
+    "en": "Check quiz q63"
+   },
+   "page": "ch6_practice",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:work/ahn2024pswci",
+   "type": "Work",
+   "label": {
+    "ko": "안상선 (2024) 산재보험패널 학술대회 포스터",
+    "en": "Ahn (2024) PSWCI conference poster"
+   },
+   "page": "ch6_practice",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:claim/knn-exact",
+   "p": "lab:supports",
+   "o": "lab:concept/reproducibility",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/split-variance",
+   "p": "lab:supports",
+   "o": "lab:concept/reproducibility",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/data-leakage",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/reproducibility",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/priority-ranking",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/human-in-the-loop",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/miss-30",
+   "p": "lab:supports",
+   "o": "lab:concept/human-in-the-loop",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/priority-ranking",
+   "p": "lab:raises",
+   "o": "lab:question/use-vs-need",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/one-hot",
+   "p": "lab:partOf",
+   "o": "lab:task/next-research",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/ch6_practice-q63",
+   "p": "lab:assesses",
+   "o": "lab:concept/data-leakage",
+   "anchor": "#s3",
+   "confidence": "high"
+  }
+ ]
+}

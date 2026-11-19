@@ -1,0 +1,435 @@
+{
+ "version": "1.0",
+ "page": "ch1_why",
+ "nodes": [
+  {
+   "id": "lab:concept/research-purpose",
+   "type": "Task",
+   "label": {
+    "ko": "재활 서비스 이용 예측 모형 구성",
+    "en": "Building a rehab-use prediction model"
+   },
+   "page": "ch1_why",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "발표의 연구 목적"
+   }
+  },
+  {
+   "id": "lab:concept/priority-ranking",
+   "type": "Method",
+   "label": {
+    "ko": "예측 확률로 우선순위 매기기",
+    "en": "Ranking by predicted probability"
+   },
+   "page": "ch1_why",
+   "anchor": "#p11",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "모델 점수 순으로 연락 대상을 고르는 쓰임"
+   }
+  },
+  {
+   "id": "lab:concept/conventional-programming",
+   "type": "Concept",
+   "label": {
+    "ko": "전통적인 프로그래밍",
+    "en": "Conventional programming"
+   },
+   "page": "ch1_why",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "사람이 규칙을 적고 컴퓨터가 적용"
+   }
+  },
+  {
+   "id": "lab:concept/machine-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "머신러닝",
+    "en": "Machine learning"
+   },
+   "page": "ch1_why",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "예시 데이터로 규칙을 찾는 방법"
+   }
+  },
+  {
+   "id": "lab:concept/supervised-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "지도학습",
+    "en": "Supervised learning"
+   },
+   "page": "ch1_why",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "정답이 붙은 데이터로 배우는 방식"
+   }
+  },
+  {
+   "id": "lab:concept/recall",
+   "type": "Metric",
+   "label": {
+    "ko": "재현율",
+    "en": "Recall"
+   },
+   "page": "ch1_why",
+   "anchor": "#p12",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "실제 이용자 중 찾아낸 비율"
+   }
+  },
+  {
+   "id": "lab:concept/specificity",
+   "type": "Metric",
+   "label": {
+    "ko": "특이도",
+    "en": "Specificity"
+   },
+   "page": "ch1_why",
+   "anchor": "#p12",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "실제 미이용자 중 맞게 거른 비율"
+   }
+  },
+  {
+   "id": "lab:concept/train-test-split",
+   "type": "Method",
+   "label": {
+    "ko": "학습·테스트 분할",
+    "en": "Train-test split"
+   },
+   "page": "ch1_why",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "80% 학습, 20% 테스트"
+   }
+  },
+  {
+   "id": "lab:concept/classification-process",
+   "type": "Method",
+   "label": {
+    "ko": "분류 모형 여섯 단계",
+    "en": "Six-step classification process"
+   },
+   "page": "ch1_why",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "수집·전처리·분할·선택·학습·평가"
+   }
+  },
+  {
+   "id": "lab:claim/period-rule",
+   "type": "Claim",
+   "label": {
+    "ko": "요양기간 코드 4 이상 규칙은 재현율 34.0%, 특이도 82.1%다",
+    "en": "Period>=4 rule: recall 34.0%, specificity 82.1%"
+   },
+   "page": "ch1_why",
+   "anchor": "#p12",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/split-2182-546",
+   "type": "Claim",
+   "label": {
+    "ko": "2,728명을 학습 2,182명과 테스트 546명으로 나눴다",
+    "en": "Split: 2,182 train / 546 test"
+   },
+   "page": "ch1_why",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "ahn2024pswci",
+     "loc": "10쪽"
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/ch1_why-p11",
+   "type": "Simulation",
+   "label": {
+    "ko": "전화 N통 실험",
+    "en": "Calls-N simulation"
+   },
+   "page": "ch1_why",
+   "anchor": "#p11",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:sim/ch1_why-p12",
+   "type": "Simulation",
+   "label": {
+    "ko": "내가 적은 규칙 실험",
+    "en": "Hand-written rule simulation"
+   },
+   "page": "ch1_why",
+   "anchor": "#p12",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:quiz/ch1_why-q12",
+   "type": "QuizItem",
+   "label": {
+    "ko": "확인 퀴즈 1-2",
+    "en": "Check quiz q12"
+   },
+   "page": "ch1_why",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:question/use-vs-need",
+   "type": "Question",
+   "label": {
+    "ko": "\"이용했다\"와 \"필요했다\"는 같은가",
+    "en": "Is service use the same as need?"
+   },
+   "page": "ch1_why",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:work/ahn2024pswci",
+   "type": "Work",
+   "label": {
+    "ko": "안상선 (2024) 산재보험패널 학술대회 포스터",
+    "en": "Ahn (2024) PSWCI conference poster"
+   },
+   "page": "ch1_why",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/priority-ranking",
+   "p": "lab:partOf",
+   "o": "lab:concept/research-purpose",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/machine-learning",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/conventional-programming",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/supervised-learning",
+   "p": "lab:broader",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/period-rule",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/recall",
+   "anchor": "#p12",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/period-rule",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/specificity",
+   "anchor": "#p12",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/period-rule",
+   "p": "lab:supports",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/train-test-split",
+   "p": "lab:partOf",
+   "o": "lab:concept/classification-process",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/split-2182-546",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ahn2024pswci",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch1_why-p11",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/priority-ranking",
+   "anchor": "#p11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch1_why-p12",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/conventional-programming",
+   "anchor": "#p12",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/ch1_why-q12",
+   "p": "lab:assesses",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/research-purpose",
+   "p": "lab:raises",
+   "o": "lab:question/use-vs-need",
+   "anchor": "#s1",
+   "confidence": "high"
+  }
+ ]
+}

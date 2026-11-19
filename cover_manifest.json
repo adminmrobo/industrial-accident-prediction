@@ -1,0 +1,477 @@
+{
+ "series_ko": "논문 해설 · 학술대회 발표",
+ "title_ko": "산업재해 패널 데이터를 활용한 머신러닝 모델 (재활 서비스 예측 연구실)",
+ "site_title": "산업재해 패널 데이터를 활용한 머신러닝 모델 (목차) — 재활 서비스 예측 연구실",
+ "site_url": "https://adminmrobo.github.io/industrial-accident-prediction/",
+ "ontology": {
+  "pages": [
+   {
+    "path": "index.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch1_why.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch2_data.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch3_models.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch4_score.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch5_imbalance.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "ch6_practice.html",
+    "kg": true,
+    "export": true
+   }
+  ],
+  "files": [
+   "kg/index/kg.json",
+   "kg/ch1_why/kg.json",
+   "kg/ch2_data/kg.json",
+   "kg/ch3_models/kg.json",
+   "kg/ch4_score/kg.json",
+   "kg/ch5_imbalance/kg.json",
+   "kg/ch6_practice/kg.json"
+  ]
+ },
+ "i18n": {
+  "langs": [
+   "ko"
+  ],
+  "pages": {
+   "ko": 7
+  },
+  "readme_langs": [
+   "ko"
+  ]
+ },
+ "languages": [
+  "ko"
+ ],
+ "items": [
+  {
+   "id": "cover_00",
+   "role": "cover",
+   "path": "img/cover_00.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_00",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "네 캐릭터가 설문지 더미에서 떠오른 빛나는 카드 몇 장과 그 뒤의 세 문을 바라보는 낮의 연구실"
+  },
+  {
+   "id": "thumb_00",
+   "role": "thumb",
+   "path": "img/thumb_00.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_00",
+   "status": "pending"
+  },
+  {
+   "id": "og_00",
+   "role": "og",
+   "path": "img/og_00.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_00",
+   "status": "pending"
+  },
+  {
+   "id": "cover_01",
+   "role": "cover",
+   "path": "img/cover_01.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_01",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "규칙 카드 한 장과 예시 카드 더미가 놓인 두 작업대 사이의 네 캐릭터"
+  },
+  {
+   "id": "thumb_01",
+   "role": "thumb",
+   "path": "img/thumb_01.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_01",
+   "status": "pending"
+  },
+  {
+   "id": "og_01",
+   "role": "og",
+   "path": "img/og_01.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_01",
+   "status": "pending"
+  },
+  {
+   "id": "cover_02",
+   "role": "cover",
+   "path": "img/cover_02.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_02",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "많은 서랍이 달린 벽장 앞에서 서랍을 열어 보고 토큰을 두 그릇에 세는 네 캐릭터"
+  },
+  {
+   "id": "thumb_02",
+   "role": "thumb",
+   "path": "img/thumb_02.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_02",
+   "status": "pending"
+  },
+  {
+   "id": "og_02",
+   "role": "og",
+   "path": "img/og_02.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_02",
+   "status": "pending"
+  },
+  {
+   "id": "cover_03",
+   "role": "cover",
+   "path": "img/cover_03.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_03",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "점 무리·S자 미끄럼틀·갈림길 나무 모형의 세 실험 구역에 흩어진 네 캐릭터"
+  },
+  {
+   "id": "thumb_03",
+   "role": "thumb",
+   "path": "img/thumb_03.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_03",
+   "status": "pending"
+  },
+  {
+   "id": "og_03",
+   "role": "og",
+   "path": "img/og_03.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_03",
+   "status": "pending"
+  },
+  {
+   "id": "cover_04",
+   "role": "cover",
+   "path": "img/cover_04.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_04",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "네 칸 성적표 보드와 높이가 다른 두 막대 앞의 네 캐릭터"
+  },
+  {
+   "id": "thumb_04",
+   "role": "thumb",
+   "path": "img/thumb_04.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_04",
+   "status": "pending"
+  },
+  {
+   "id": "og_04",
+   "role": "og",
+   "path": "img/og_04.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_04",
+   "status": "pending"
+  },
+  {
+   "id": "cover_05",
+   "role": "cover",
+   "path": "img/cover_05.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_05",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "회색 공이 수북한 쪽과 초록 공 몇 개뿐인 쪽으로 기운 시소를 맞추려는 네 캐릭터"
+  },
+  {
+   "id": "thumb_05",
+   "role": "thumb",
+   "path": "img/thumb_05.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_05",
+   "status": "pending"
+  },
+  {
+   "id": "og_05",
+   "role": "og",
+   "path": "img/og_05.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_05",
+   "status": "pending"
+  },
+  {
+   "id": "cover_06",
+   "role": "cover",
+   "path": "img/cover_06.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_06",
+   "source_of": null,
+   "status": "pending",
+   "alt_ko": "노트북과 상담 창구 책상 사이에서 순서대로 놓인 카드를 건네는 네 캐릭터"
+  },
+  {
+   "id": "thumb_06",
+   "role": "thumb",
+   "path": "img/thumb_06.webp",
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_06",
+   "status": "pending"
+  },
+  {
+   "id": "og_06",
+   "role": "og",
+   "path": "img/og_06.webp",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_06",
+   "status": "pending"
+  }
+ ],
+ "updated": "2026-11-20"
+}

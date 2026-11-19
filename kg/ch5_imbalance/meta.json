@@ -1,0 +1,42 @@
+{
+ "title": "제5장 · 불균형 데이터와 보완",
+ "number": "5",
+ "series": "재활 서비스 예측 연구실 (산업재해 패널 데이터와 머신러닝)",
+ "about": [
+  "lab:concept/imbalanced-data",
+  "lab:concept/class-weight",
+  "lab:concept/cross-validation"
+ ],
+ "basedOn": [
+  "ahn2024pswci",
+  "kcomwel2022pswci"
+ ],
+ "educationalLevel": "입문",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-19",
+ "version": "1.0",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "https://adminmrobo.github.io/industrial-accident-prediction/ch5_imbalance.html",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "",
+ "domain": [
+  "ai",
+  "stats"
+ ],
+ "suggestedCitation": "안상선 (2026). 제5장 · 불균형 데이터와 보완. 재활 서비스 예측 연구실 (산업재해 패널 데이터와 머신러닝) 5, v1.0."
+}

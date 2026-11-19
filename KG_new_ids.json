@@ -1,0 +1,496 @@
+{
+ "registry": "KG_00_registry 0.2",
+ "added": "2026-11-20",
+ "entries": [
+  {
+   "id": "lab:topic/rehab-service-prediction",
+   "label_ko": "재활 서비스 이용 예측",
+   "label_en": "Rehabilitation service use prediction",
+   "type": "Topic",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:dataset/pswci-cohort2-wave5",
+   "label_ko": "산재보험패널 2차 코호트 5차년도",
+   "label_en": "PSWCI cohort 2 wave 5",
+   "type": "Dataset",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:concept/classification-model",
+   "label_ko": "분류 모형",
+   "label_en": "Classification model",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:concept/imbalanced-data",
+   "label_ko": "불균형 데이터",
+   "label_en": "Imbalanced data",
+   "type": "Limitation",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:claim/accuracy-trap-job",
+   "label_ko": "직업재활 로지스틱 모델은 정확도 84.1%지만 이용자를 한 명도 찾지 못했다",
+   "label_en": "Job-rehab logistic model: 84.1% accuracy, 0% recall",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:question/who-needs-help",
+   "label_ko": "서비스가 필요한데 이용하지 않은 사람을 데이터로 찾을 수 있을까",
+   "label_en": "Can data find people who need but do not use services?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/index.html"
+  },
+  {
+   "id": "lab:concept/research-purpose",
+   "label_ko": "재활 서비스 이용 예측 모형 구성",
+   "label_en": "Building a rehab-use prediction model",
+   "type": "Task",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/priority-ranking",
+   "label_ko": "예측 확률로 우선순위 매기기",
+   "label_en": "Ranking by predicted probability",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/conventional-programming",
+   "label_ko": "전통적인 프로그래밍",
+   "label_en": "Conventional programming",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/machine-learning",
+   "label_ko": "머신러닝",
+   "label_en": "Machine learning",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/supervised-learning",
+   "label_ko": "지도학습",
+   "label_en": "Supervised learning",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/recall",
+   "label_ko": "재현율",
+   "label_en": "Recall",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/specificity",
+   "label_ko": "특이도",
+   "label_en": "Specificity",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/train-test-split",
+   "label_ko": "학습·테스트 분할",
+   "label_en": "Train-test split",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/classification-process",
+   "label_ko": "분류 모형 여섯 단계",
+   "label_en": "Six-step classification process",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:claim/period-rule",
+   "label_ko": "요양기간 코드 4 이상 규칙은 재현율 34.0%, 특이도 82.1%다",
+   "label_en": "Period>=4 rule: recall 34.0%, specificity 82.1%",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:claim/split-2182-546",
+   "label_ko": "2,728명을 학습 2,182명과 테스트 546명으로 나눴다",
+   "label_en": "Split: 2,182 train / 546 test",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:question/use-vs-need",
+   "label_ko": "\"이용했다\"와 \"필요했다\"는 같은가",
+   "label_en": "Is service use the same as need?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/ch1_why.html"
+  },
+  {
+   "id": "lab:concept/panel-data",
+   "label_ko": "패널 데이터",
+   "label_en": "Panel data",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/categorical-variable",
+   "label_ko": "범주형 변수",
+   "label_en": "Categorical variable",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/missing-value-zero",
+   "label_ko": "빈칸을 0으로 채우기",
+   "label_en": "Zero imputation",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/target-variable",
+   "label_ko": "타깃 변수 세 개",
+   "label_en": "Three target variables",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/correlation",
+   "label_ko": "상관계수",
+   "label_en": "Correlation coefficient",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/group-rate",
+   "label_ko": "무리별 이용률",
+   "label_en": "Group usage rate",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:claim/period-top-corr",
+   "label_ko": "세 타깃 모두 요양기간이 양(+)의 상관 1위다",
+   "label_en": "Period is the top positive correlate for all targets",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:claim/disability-sign",
+   "label_ko": "장해 코드의 음(−) 상관은 번호 방향 때문이며 장해가 있는 쪽 이용률이 33.0%로 없는 쪽 6.7%보다 높다",
+   "label_en": "Negative correlation of disability code reflects coding direction",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:claim/yservice-union",
+   "label_ko": "Y1 이용자 764명 = 직업재활만 275 + 둘 다 160 + 사회재활만 329",
+   "label_en": "Y1 = Y2 or Y3",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:question/rate-mismatch",
+   "label_ko": "발표 27쪽 이용률(14.4%·23.4%)과 파일 이용률(15.9%·17.9%)이 다른 이유는",
+   "label_en": "Why do poster rates differ from file rates?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/ch2_data.html"
+  },
+  {
+   "id": "lab:concept/knn",
+   "label_ko": "K-이웃 분류 (KNN)",
+   "label_en": "K-nearest neighbors",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/standardization",
+   "label_ko": "표준화",
+   "label_en": "Standardization",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/logistic-regression",
+   "label_ko": "로지스틱 회귀",
+   "label_en": "Logistic regression",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/sigmoid",
+   "label_ko": "시그모이드 함수",
+   "label_en": "Sigmoid function",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/decision-tree",
+   "label_ko": "의사결정나무",
+   "label_en": "Decision tree",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/overfitting",
+   "label_ko": "과적합",
+   "label_en": "Overfitting",
+   "type": "Limitation",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:claim/knn-scaling",
+   "label_ko": "표준화만 더해도 KNN의 재현율이 17.68%에서 22.56%로 오른다",
+   "label_en": "Scaling raises KNN recall 17.68% to 22.56%",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:claim/logit-threshold",
+   "label_ko": "표준화 로지스틱의 테스트 546명 중 확률 0.5를 넘은 사람은 47명뿐이다",
+   "label_en": "Only 47 of 546 exceed p=0.5",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:claim/tree-overfit",
+   "label_ko": "발표 나무는 학습 정확도 100%, 테스트 62.6% (깊이 24, 잎 386)",
+   "label_en": "Tree: train 100%, test 62.6%",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:claim/recall-three",
+   "label_ko": "Y1 재현율은 KNN 17.68%, 로지스틱 3.66%, 나무 35.98%다",
+   "label_en": "Y1 recall: KNN 17.68, logit 3.66, tree 35.98",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:question/split-not-cause",
+   "label_ko": "나무가 고른 질문(흡연 등)을 원인으로 읽어도 될까",
+   "label_en": "Are tree splits causes?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/ch3_models.html"
+  },
+  {
+   "id": "lab:concept/confusion-matrix",
+   "label_ko": "혼동행렬",
+   "label_en": "Confusion matrix",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/accuracy",
+   "label_ko": "정확도",
+   "label_en": "Accuracy",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/precision",
+   "label_ko": "정밀도",
+   "label_en": "Precision",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/balanced-accuracy",
+   "label_ko": "균형 정확도",
+   "label_en": "Balanced accuracy",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/threshold",
+   "label_ko": "임계값 (기준선)",
+   "label_en": "Decision threshold",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/auc",
+   "label_ko": "AUC",
+   "label_en": "AUC",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:claim/nine-models",
+   "label_ko": "아홉 개 모델의 균형 정확도는 모두 50.0~57.0%다",
+   "label_en": "Balanced accuracy of all nine models is 50.0-57.0%",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:claim/job-logit-trap",
+   "label_ko": "직업재활 로지스틱은 정확도 84.07%, 재현율 0%로 찍기 모델과 같다",
+   "label_en": "Job logistic equals majority-class guessing",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:claim/threshold-auc",
+   "label_ko": "표준화 로지스틱의 AUC는 0.666·0.703·0.644다",
+   "label_en": "Scaled logistic AUC 0.666/0.703/0.644",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:question/cost-of-errors",
+   "label_ko": "놓침과 헛걸음의 비용을 어떻게 견줄까",
+   "label_en": "How to weigh missed vs. wasted contacts?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/ch4_score.html"
+  },
+  {
+   "id": "lab:concept/outlier",
+   "label_ko": "이상치",
+   "label_en": "Outliers",
+   "type": "Limitation",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/random-oversampling",
+   "label_ko": "복제 오버샘플링",
+   "label_en": "Random oversampling",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/smote",
+   "label_ko": "SMOTE",
+   "label_en": "SMOTE",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/class-weight",
+   "label_ko": "클래스 가중치",
+   "label_en": "Class weight",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/sampling-bias",
+   "label_ko": "표본 편향",
+   "label_en": "Sampling bias",
+   "type": "Limitation",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/random-forest",
+   "label_ko": "랜덤 포레스트",
+   "label_en": "Random forest",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/cross-validation",
+   "label_ko": "교차검증",
+   "label_en": "Cross-validation",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/feature-importance",
+   "label_ko": "변수 중요도",
+   "label_en": "Feature importance",
+   "type": "Metric",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:claim/ros-bias-risk",
+   "label_ko": "복제 방식은 빠르지만 표본 편향 가능성을 높인다",
+   "label_en": "Duplication raises sampling-bias risk",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:claim/weight-improves",
+   "label_ko": "표준화 + 가중치 로지스틱은 Y1 균형 정확도를 50.74%에서 63.73%로 올린다",
+   "label_en": "Scaling + weights: Y1 balanced accuracy 50.74% to 63.73%",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:claim/cv-auc",
+   "label_ko": "5겹 교차검증에서 세 타깃의 AUC는 0.67~0.69다",
+   "label_en": "5-fold AUC 0.67-0.69",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:claim/ros-vs-smote",
+   "label_ko": "복제와 SMOTE의 차이 0.62%p는 나누기 흔들림 안쪽이다",
+   "label_en": "ROS vs SMOTE gap within split noise",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:question/more-signal",
+   "label_ko": "지난 연도 패널 응답을 더하면 신호가 커질까",
+   "label_en": "Would prior-wave answers add signal?",
+   "type": "Question",
+   "first_page": "industrial-accident-prediction/ch5_imbalance.html"
+  },
+  {
+   "id": "lab:concept/reproducibility",
+   "label_ko": "재현성",
+   "label_en": "Reproducibility",
+   "type": "Concept",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:concept/data-leakage",
+   "label_ko": "처방 전 나누기 누락 (데이터 누수)",
+   "label_en": "Leakage from resampling before split",
+   "type": "Limitation",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:concept/human-in-the-loop",
+   "label_ko": "사람이 최종 결정",
+   "label_en": "Human decision",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:concept/one-hot",
+   "label_ko": "원-핫 인코딩",
+   "label_en": "One-hot encoding",
+   "type": "Method",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:task/next-research",
+   "label_ko": "다음 연구 로드맵",
+   "label_en": "Next research roadmap",
+   "type": "Task",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:claim/knn-exact",
+   "label_ko": "같은 조건이면 발표의 KNN 결과가 소수 둘째 자리까지 재현된다",
+   "label_en": "KNN results reproduce exactly",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:claim/split-variance",
+   "label_ko": "random_state를 0으로 바꾸면 Y1 KNN 재현율이 17.68%에서 13.46%로 바뀐다",
+   "label_en": "Changing split seed moves KNN recall",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  },
+  {
+   "id": "lab:claim/miss-30",
+   "label_ko": "가장 나은 모델도 재활 서비스 이용자 164명 중 49명을 미이용으로 판정한다",
+   "label_en": "Best model still misses 49 of 164",
+   "type": "Claim",
+   "first_page": "industrial-accident-prediction/ch6_practice.html"
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "version": "1.0",
+ "page": "ch5_imbalance",
+ "nodes": [
+  {
+   "id": "lab:concept/imbalanced-data",
+   "type": "Limitation",
+   "label": {
+    "ko": "불균형 데이터",
+    "en": "Imbalanced data"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "적은 쪽을 배우지 못함"
+   }
+  },
+  {
+   "id": "lab:concept/outlier",
+   "type": "Limitation",
+   "label": {
+    "ko": "이상치",
+    "en": "Outliers"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "유난히 큰 값 몇 개가 거리·계수를 흔듦"
+   }
+  },
+  {
+   "id": "lab:concept/random-oversampling",
+   "type": "Method",
+   "label": {
+    "ko": "복제 오버샘플링",
+    "en": "Random oversampling"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "적은 쪽을 복제해 늘림"
+   }
+  },
+  {
+   "id": "lab:concept/smote",
+   "type": "Method",
+   "label": {
+    "ko": "SMOTE",
+    "en": "SMOTE"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "적은 쪽 점 사이에 새 점을 만듦"
+   }
+  },
+  {
+   "id": "lab:concept/class-weight",
+   "type": "Method",
+   "label": {
+    "ko": "클래스 가중치",
+    "en": "Class weight"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "적은 쪽을 틀리면 벌점을 크게"
+   }
+  },
+  {
+   "id": "lab:concept/sampling-bias",
+   "type": "Limitation",
+   "label": {
+    "ko": "표본 편향",
+    "en": "Sampling bias"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "같은 특성의 데이터를 같은 비중으로 늘릴 때 생김"
+   }
+  },
+  {
+   "id": "lab:concept/random-forest",
+   "type": "Method",
+   "label": {
+    "ko": "랜덤 포레스트",
+    "en": "Random forest"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "나무 수백 그루의 다수결"
+   }
+  },
+  {
+   "id": "lab:concept/cross-validation",
+   "type": "Method",
+   "label": {
+    "ko": "교차검증",
+    "en": "Cross-validation"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "다섯 조각으로 다섯 번 재기"
+   }
+  },
+  {
+   "id": "lab:concept/feature-importance",
+   "type": "Metric",
+   "label": {
+    "ko": "변수 중요도",
+    "en": "Feature importance"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#p54",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "definition": {
+    "ko": "나무가 가를 때 많이 쓴 정도"
+   }
+  },
+  {
+   "id": "lab:claim/ros-bias-risk",
+   "type": "Claim",
+   "label": {
+    "ko": "복제 방식은 빠르지만 표본 편향 가능성을 높인다",
+    "en": "Duplication raises sampling-bias risk"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "ahn2024pswci",
+     "loc": "28쪽"
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/weight-improves",
+   "type": "Claim",
+   "label": {
+    "ko": "표준화 + 가중치 로지스틱은 Y1 균형 정확도를 50.74%에서 63.73%로 올린다",
+    "en": "Scaling + weights: Y1 balanced accuracy 50.74% to 63.73%"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/cv-auc",
+   "type": "Claim",
+   "label": {
+    "ko": "5겹 교차검증에서 세 타깃의 AUC는 0.67~0.69다",
+    "en": "5-fold AUC 0.67-0.69"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/ros-vs-smote",
+   "type": "Claim",
+   "label": {
+    "ko": "복제와 SMOTE의 차이 0.62%p는 나누기 흔들림 안쪽이다",
+    "en": "ROS vs SMOTE gap within split noise"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ],
+   "source": [
+    {
+     "ref": "kcomwel2022pswci",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/ch5_imbalance-p52",
+   "type": "Simulation",
+   "label": {
+    "ko": "소수 쪽 점에 무게 싣기",
+    "en": "Rebalancing simulation"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#p52",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:quiz/ch5_imbalance-q54",
+   "type": "QuizItem",
+   "label": {
+    "ko": "확인 퀴즈 5-4",
+    "en": "Check quiz q54"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:question/more-signal",
+   "type": "Question",
+   "label": {
+    "ko": "지난 연도 패널 응답을 더하면 신호가 커질까",
+    "en": "Would prior-wave answers add signal?"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  },
+  {
+   "id": "lab:work/ahn2024pswci",
+   "type": "Work",
+   "label": {
+    "ko": "안상선 (2024) 산재보험패널 학술대회 포스터",
+    "en": "Ahn (2024) PSWCI conference poster"
+   },
+   "page": "ch5_imbalance",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai",
+    "stats"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/imbalanced-data",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/random-oversampling",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/imbalanced-data",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/smote",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/imbalanced-data",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/class-weight",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/random-oversampling",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/sampling-bias",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/random-oversampling",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/smote",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/ros-bias-risk",
+   "p": "lab:supports",
+   "o": "lab:concept/sampling-bias",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/ros-bias-risk",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ahn2024pswci",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/weight-improves",
+   "p": "lab:supports",
+   "o": "lab:concept/class-weight",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cv-auc",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/cross-validation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/ros-vs-smote",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/cross-validation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/random-forest",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/feature-importance",
+   "anchor": "#p54",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:sim/ch5_imbalance-p52",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/smote",
+   "anchor": "#p52",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/ch5_imbalance-q54",
+   "p": "lab:assesses",
+   "o": "lab:concept/cross-validation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cv-auc",
+   "p": "lab:raises",
+   "o": "lab:question/more-signal",
+   "anchor": "#s4",
+   "confidence": "high"
+  }
+ ]
+}
