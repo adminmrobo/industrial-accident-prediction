@@ -4,6 +4,7 @@
 | 공통 | 내용 |
 |---|---|
 | 판 | L (16:9, 가로 1920 이상) → 빌드 1600×900 WebP |
+| 그림체 | **16비트 RPG풍 픽셀아트 (필수)** — 네모 픽셀이 보이는 굵은 외곽선, 2~3단계 명암. 매끈한 일러스트·벡터·3D·수채화 금지 |
 | 저장 이름 | `img/cover_00.webp` ~ `img/cover_06.webp` (페이지가 이 이름을 자동으로 찾아 대체 표지 대신 보여 줌) |
 | 참고 이미지 | 네 캐릭터 기본 그림 4장 (GitHub `adminmrobo/fruitfly-lab-expressions`) |
 | 금지 | 글자·숫자·물음표·로고, 하얀 둥근 로봇(Money-Robo), 실존 인물·기관 로고, 다친 몸·피·병원 침대 같은 고통 묘사 |
@@ -31,13 +32,14 @@
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. A long lab table covered with neat stacks of blank survey sheets; a few small glowing blank cards float up from the stack toward three plain doorways in the background (three kinds of rehabilitation services).
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing at the back center, one hand presenting the glowing cards;
@@ -49,7 +51,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -67,13 +69,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. Two workbenches side by side: the left one holds a single blank handwritten-style rule card on a stand; the right one holds a big stack of blank example cards and a small balance scale tilting by itself.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing between the two workbenches, arms open as if presenting two choices;
@@ -85,7 +88,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -103,13 +106,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. A tall wall cabinet of many small labeled-less drawers; several drawers are open, one is almost empty. On the floor two bowls of tokens, one big and full, one small.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, at the center, pulling out one drawer to show;
@@ -121,7 +125,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -139,13 +143,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. Three small stations in one lab: on the left colored dots on the floor with a dashed circle around a black dot; in the middle a playground-like S-shaped slide; on the right a tabletop decision-tree model with branching wooden paths and small boxes at the ends.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, at the center behind the S-shaped slide, presenting all three stations;
@@ -157,7 +162,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -175,13 +180,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. A large wall board divided into four equal cells (two green, one amber, one red-edged and empty); next to it two vertical bars, one very tall and one very short.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, in front of the board, pointing at the red-edged cell;
@@ -193,7 +199,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -211,13 +217,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. A big seesaw scale: one side piled high with gray balls, the other side with only two or three green balls; dashed-outline balls appear between the green ones.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, at the pivot, steadying the seesaw with one hand;
@@ -229,7 +236,7 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
 
 ---
 
@@ -247,13 +254,14 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 ```
 웹페이지 맨 위에 거는 표지 그림 1장을 만들어 줘.
 - 비율 16:9, 가로 1920px 이상
-- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 그림체·같은 외형으로, 넷 모두 등장
+- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·3D 금지)
+- 첨부한 참고 이미지의 네 캐릭터(박사, 조수, 초파리 연구원, 주판봇)를 같은 외형으로, 넷 모두 픽셀아트로 등장
 - 그림 안에 글자·숫자·물음표·로고를 넣지 말 것
 - 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게
 아래 영어 프롬프트를 그대로 써 줘.
 
 Website top cover illustration, wide 16:9.
-Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2-3 tone shading, small highlights).
+Art style (required): 16-bit RPG style pixel art with clearly visible square pixels, limited palette, bold dark outline, 2-3 tone shading, small highlights; no smooth gradients, no painterly, vector or 3D look. Match the characters' proportions and colors of the attached reference images exactly, drawn in this same pixel-art style.
 Scene: a bright daytime lab. A laptop showing colored blank code lines (no characters) next to a friendly counseling desk with a phone and a neat ordered row of blank name cards.
 All four characters together:
   chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, at the counter, handing over an ordered stack of blank cards;
@@ -265,4 +273,4 @@ Mood: curious, warm, friendly rivalry. Daytime lab: big windows, natural light, 
 No text, no letters, no numbers, no question marks, no logos, no injuries, no blood, no hospital beds, no real brands or real products.
 ```
 
-**고칠 때 (같은 대화에서):** `Same four characters, same art style and composition. Change only: {고칠 점}. Still no text.`
+**고칠 때 (같은 대화에서):** `Same four characters, same 16-bit pixel-art style and composition. Change only: {고칠 점}. Still pixel art, still no text.`
