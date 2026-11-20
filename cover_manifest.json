@@ -83,7 +83,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_00",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "네 캐릭터가 설문지 더미에서 떠오른 빛나는 카드 몇 장과 그 뒤의 세 문을 바라보는 낮의 연구실"
   },
   {
@@ -91,8 +91,8 @@
    "role": "thumb",
    "path": "img/thumb_00.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -103,7 +103,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_00",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_00",
@@ -122,7 +122,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_00",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_01",
@@ -141,7 +141,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_01",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "규칙 카드 한 장과 예시 카드 더미가 놓인 두 작업대 사이의 네 캐릭터"
   },
   {
@@ -149,8 +149,8 @@
    "role": "thumb",
    "path": "img/thumb_01.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -161,7 +161,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_01",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_01",
@@ -180,7 +180,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_01",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_02",
@@ -199,7 +199,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_02",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "많은 서랍이 달린 벽장 앞에서 서랍을 열어 보고 토큰을 두 그릇에 세는 네 캐릭터"
   },
   {
@@ -207,8 +207,8 @@
    "role": "thumb",
    "path": "img/thumb_02.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -219,7 +219,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_02",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_02",
@@ -238,7 +238,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_02",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_03",
@@ -257,7 +257,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_03",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "점 무리·S자 미끄럼틀·갈림길 나무 모형의 세 실험 구역에 흩어진 네 캐릭터"
   },
   {
@@ -265,8 +265,8 @@
    "role": "thumb",
    "path": "img/thumb_03.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -277,7 +277,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_03",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_03",
@@ -296,7 +296,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_03",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_04",
@@ -315,7 +315,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_04",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "네 칸 성적표 보드와 높이가 다른 두 막대 앞의 네 캐릭터"
   },
   {
@@ -323,8 +323,8 @@
    "role": "thumb",
    "path": "img/thumb_04.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -335,7 +335,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_04",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_04",
@@ -354,7 +354,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_04",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_05",
@@ -373,7 +373,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_05",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "회색 공이 수북한 쪽과 초록 공 몇 개뿐인 쪽으로 기운 시소를 맞추려는 네 캐릭터"
   },
   {
@@ -381,8 +381,8 @@
    "role": "thumb",
    "path": "img/thumb_05.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -393,7 +393,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_05",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_05",
@@ -412,7 +412,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_05",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "cover_06",
@@ -431,7 +431,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": "see docs/COVER_PROMPTS_industrial_accident.md#cover_06",
    "source_of": null,
-   "status": "pending",
+   "status": "ok",
    "alt_ko": "노트북과 상담 창구 책상 사이에서 순서대로 놓인 카드를 건네는 네 캐릭터"
   },
   {
@@ -439,8 +439,8 @@
    "role": "thumb",
    "path": "img/thumb_06.webp",
    "size": [
-    600,
-    400
+    1200,
+    800
    ],
    "characters": [
     "doc",
@@ -451,7 +451,7 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_06",
-   "status": "pending"
+   "status": "ok"
   },
   {
    "id": "og_06",
@@ -470,8 +470,8 @@
    "robot": "jupanbot-v2",
    "prompt_en": null,
    "source_of": "cover_06",
-   "status": "pending"
+   "status": "ok"
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }
