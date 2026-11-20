@@ -97,8 +97,8 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 | 항목 | 내용 |
 |---|---|
 | 키 · 판 | cover_02 · L (16:9) |
-| 장소 | 벽 가득한 칸막이 서랍장 (데이터 열) |
-| 주제 은유 | 서랍장의 서랍 몇 개가 열려 있고, 그중 하나에 빈 칸이 많은 서랍(결측값), 두 개의 큰 물방울 모양 막대(이용률이 다른 두 무리) |
+| 장소 | 작은 서랍이 벽 가득한 서랍장 (데이터 열) |
+| 주제 은유 | 서랍장의 서랍 몇 개가 열려 있고, 그중 하나는 거의 비어 있는 서랍(결측값), 두 개의 큰 물방울 모양 막대(이용률이 다른 두 무리) |
 | 네 캐릭터 포즈 | 박사 at the center, pulling out one drawer to show / 조수 kneeling, counting small tokens into two bowls of very different sizes / 초파리 on the left facing right, peering into a nearly empty drawer with a magnifying glass / 주판봇 on the right facing left, abacus raised, reading numbers off the drawers |
 | 대체 글 (alt) | 많은 서랍이 달린 벽장 앞에서 서랍을 열어 보고 토큰을 두 그릇에 세는 네 캐릭터 |
 
@@ -171,10 +171,10 @@ No text, no letters, no numbers, no question marks, no logos, no injuries, no bl
 | 항목 | 내용 |
 |---|---|
 | 키 · 판 | cover_04 · L (16:9) |
-| 장소 | 2×2 칸의 커다란 성적표 보드 |
-| 주제 은유 | 칸 넷 중 한 칸만 크게 빛나고, 다른 칸(놓침)은 빨간 테두리로 비어 있음; 큰 숫자 대신 막대 두 개(정확도는 높고 찾은 비율은 낮음) |
+| 장소 | 네 구역으로 나뉜 커다란 성적표 보드 |
+| 주제 은유 | 네 구역 중 한 구역만 크게 빛나고, 다른 구역(놓침)은 빨간 테두리로 비어 있음; 큰 숫자 대신 막대 두 개(정확도는 높고 찾은 비율은 낮음) |
 | 네 캐릭터 포즈 | 박사 in front of the board, pointing at the red-edged cell / 조수 holding a clipboard, comparing two bars / 초파리 on the left facing right, frowning at the shining cell with a magnifying glass / 주판봇 on the right facing left, cheering at the tall bar with the abacus |
-| 대체 글 (alt) | 네 칸 성적표 보드와 높이가 다른 두 막대 앞의 네 캐릭터 |
+| 대체 글 (alt) | 네 구역 성적표 보드와 높이가 다른 두 막대 앞의 네 캐릭터 |
 
 **Genspark에 붙여 넣기 ↓**
 ```
